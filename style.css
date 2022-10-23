@@ -1,0 +1,71 @@
+body{
+    background-image: url(./todo.jpg)  ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.toDo {
+    flex-wrap: wrap;
+    text-align: center;
+}
+.liClass {
+    font-size: 30px;
+    font-weight: 900;
+    list-style: none;
+}
+#text {
+    border: 2px solid #34495e;
+    border-radius: 5px;
+    padding: 15px 150px 15px 0px;
+}
+#text:focus {
+    outline: none;
+    color: white;
+    background-color: #2d3436;
+}
+#add_btn {
+    border: 1px solid #2d3436;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    background-color: #2d3436;
+    color: white;
+}
+#add_btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#deleteAll_btn {
+    border: 1px solid #2d3436;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    background-color: #2d3436;
+    color: white;
+}
+#deleteAll_btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.li_btn {
+    border: 1px solid #2d3436;
+    border-radius: 5px;
+    background-color: #2d3436;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+.li_btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.li_edit_btn {
+    border: 1px solid #2d3436;
+    border-radius: 5px;
+    background-color: #2d3436;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+.li_edit_btn {
+    cursor: pointer;
+}
